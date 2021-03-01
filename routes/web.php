@@ -10,7 +10,16 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-
-Route::get('/', function () {
-    return view('welcome');
+// LP獲得用(1)
+Route::get('info1', function () {
+    return view('fb.check'); //提出用
+    // return view('fb.pp'); //ワクワク - P活LP
 });
+
+// LP確認用
+Route::get('cccheck', function () {
+    return view('fb.pp'); //ワクワク - P活LP
+});
+
+//OS識別 - パパ活
+Route::get('os', 'AdController@os');
