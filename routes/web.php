@@ -12,8 +12,8 @@
 */
 // LP獲得用(1)
 Route::get('info1', function () {
-    // return view('fb.check'); //提出用
-    return view('fb.pp'); //ワクワク - P活LP
+    return view('fb.check'); //提出用
+    // return view('fb.pp'); //ワクワク - P活LP
 });
 
 // LP確認用
