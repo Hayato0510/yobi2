@@ -12,8 +12,8 @@
 */
 // LP獲得用(1)
 Route::get('info1', function () {
-    return view('fb.check'); //提出用
-    // return view('fb.job'); //チャットレディー案件訴求
+    // return view('fb.check'); //提出用
+    return view('fb.job'); //チャットレディー案件訴求
     
     // return view('fb.pp'); //ワクワク - P活LP - LINE@を活用する場合は3日おきにチャトレ案件訴求 & 作り変え
 });
