@@ -32,5 +32,5 @@ Route::get('cccheck', function () {
     // return view('fb.job'); //チャットレディー案件訴求
 });
 
-//OS識別 - パパ活
-Route::get('os', 'AdController@os');
+// //OS識別 - パパ活
+// Route::get('os', 'AdController@os');
