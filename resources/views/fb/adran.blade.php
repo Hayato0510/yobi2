@@ -10,9 +10,10 @@
     </head>
     <body>
         <header>
-            <h3>裏LINE速報</h3>
+            <h3>LINEマッチング速報</h3>
         </header>
-        <img src="{{ asset('image/lp_ad_op_1.jpg') }}"></img>
+        <p>東京都参加女性(例) <i class="fas fa-arrow-alt-circle-down"></i></p>
+        <img src="{{ asset('image/adran_11.jpg') }}"></img>
         <p>成人向けグループに進みますので<br>18歳未満の方はご遠慮下さい。</p>
         <h3 class="no1">あなたは18歳以上ですか？<br>裏垢出会いに興味ありますか？</h3>
         <div class="button">
